@@ -31,7 +31,6 @@
 		<module>tulingvip09-ms-auth-server</module>
 		<module>tulingvip09-ms-auth-server-gateway</module>
 		<module>tulingvip09-ms-cloud-gateway</module>
-		<module>tulingvip-ms-alibaba-dao</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>

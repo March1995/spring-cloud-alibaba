@@ -5,4 +5,13 @@
     <select id="selectOrderInfoById" resultType="com.tuling.entity.OrderInfo" parameterType="string">
       select * from order_info where order_no=#{orderNo}
     </select>
+
+    <select id="selectOrderInfoByIdAndUserName" resultType="com.tuling.entity.OrderInfo" parameterType="map">
+        select * from order_info where order_no=#{orderNo} and user_name=#{userName}
+    </select>
+
+    <insert id="insertOrder" parameterType="com.tuling.entity.OrderInfo" useGeneratedKeys="true" keyProperty="orderNo">
+        insert into order_info (order_no,user_name,create_dt,product_no,product_count)
+        VALUES (#{orderNo},#{userName},now(),#{productNo},#{productCount})
+    </insert>
 </mapper>

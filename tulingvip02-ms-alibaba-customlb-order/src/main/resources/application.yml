@@ -1,9 +1,9 @@
 spring:
   datasource:
       druid:
-        username: root
-        password: Zw726515
-        jdbcUrl: jdbc:mysql://localhost:3306/tuling-ms-alibaba?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        username: alibaba
+        password: alibabaPwd
+        jdbcUrl: jdbc:mysql://111.231.85.51:3306/tuling-ms-alibaba?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
         driverClassName: com.mysql.jdbc.Driver
         initialSize: 5
         minIdle: 5
@@ -23,7 +23,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848
+        server-addr: 47.110.64.176:8848
         #namespace: bc7613d2-2e22-4292-a748-48b78170f14c  #指定namespace的id
   application:
     name: order-center

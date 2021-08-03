@@ -2,9 +2,9 @@
 spring:
   datasource:
       druid:
-        username: root
-        password: Zw726515
-        jdbcUrl: jdbc:mysql://localhost:3306/tuling-ms-alibaba?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        username: alibaba
+        password: alibabaPwd
+        jdbcUrl: jdbc:mysql://111.231.85.51:3306/tuling-ms-alibaba?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
         driverClassName: com.mysql.jdbc.Driver
         initialSize: 5
         minIdle: 5
@@ -26,13 +26,13 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.159.8:8847
+        server-addr: 47.110.64.176:8848
         #cluster-name: BJ-CLUSTER
-        #metadata:
-          #current-version: V2
+        metadata:
+          current-version: V1
         #namespace: 20989a73-cdb3-41b8-85c0-e9a3530e28a6
 server:
-  port: 8084
+  port: 8083
 logging:
   level:
     com:

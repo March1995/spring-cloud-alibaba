@@ -8,10 +8,10 @@ spring:
       discovery:
         server-addr: localhost:8848
   datasource:
-    username: root
-    password: Zw726515
+    username: alibaba
+    password: alibabaPwd
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sso?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://111.231.85.51:3306/sso?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
 
   redis:

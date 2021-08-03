@@ -1,9 +1,9 @@
 spring:
   datasource:
       druid:
-        username: root
-        password: Zw726515
-        jdbcUrl: jdbc:mysql://localhost:3306/tuling-ms-alibaba
+        username: alibaba
+        password: alibabaPwd
+        jdbcUrl: jdbc:mysql://111.231.85.51:3306/tuling-ms-alibaba
         driverClassName: com.mysql.jdbc.Driver
         initialSize: 5
         minIdle: 5

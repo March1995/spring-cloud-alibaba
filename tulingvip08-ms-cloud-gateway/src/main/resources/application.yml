@@ -1,23 +1,24 @@
-#�滮GateWay�ķ���˿�
+#规划GateWay的服务端口
 server:
   port: 8888
-#�滮gateWayע�ᵽ��nacos�ϵķ���Ӧ������
+#规划gateWay注册到到nacos上的服务应用名称
 spring:
   application:
     name: api-gateway
   cloud:
     nacos:
       discovery:
-        #gateway����ע�ᵽnacos�ϵĵ�ַ
+        #gateway工程注册到nacos上的地址
         server-addr: localhost:8848
     gateway:
       discovery:
         locator:
-          #����gateway��nacos�ϻ�ȡ�����б�
-          enabled: false
-  profiles:
-    active: allFilter
-#����acutor�˵�
+          #开启gateway从nacos上获取服务列表
+          enabled: true
+#  profiles:
+#    active: allFilter
+
+#开启acutor端点
 management:
   endpoints:
     web:
@@ -25,8 +26,5 @@ management:
         include: '*'
   endpoint:
     health:
-      #�򿪶˵�����
-      show-details: always
-
-
-
+      #打开端点详情
+      show‐details: always

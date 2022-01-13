@@ -24,7 +24,8 @@ public class AuthGateWayFilter implements GlobalFilter,Ordered {
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         List<String> token = exchange.getRequest().getHeaders().get("token");
         if(StringUtils.isEmpty(token)) {
-            return null;
+//            return Mono.empty();
+            return chain.filter(exchange);
         }else {
             log.info("token:{}",token);
             return chain.filter(exchange);

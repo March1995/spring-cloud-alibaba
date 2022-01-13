@@ -41,6 +41,7 @@ public class TulingTimeBetweenRoutePredicateFactory extends AbstractRoutePredica
 
     }
 
+    @Override
     public List<String> shortcutFieldOrder() {
         return Arrays.asList("startTime", "endTime");
     }

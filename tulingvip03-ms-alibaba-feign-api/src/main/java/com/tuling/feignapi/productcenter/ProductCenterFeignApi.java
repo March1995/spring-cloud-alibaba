@@ -25,10 +25,10 @@ public interface ProductCenterFeignApi {
      * 声明式接口,远程调用http://product-center/selectProductInfoById/{productNo}
      * @param productNo
      * @return
-
+     */
     @RequestMapping("/selectProductInfoById/{productNo}")
     ProductInfo selectProductInfoById(@PathVariable("productNo") String productNo);
-     */
+
 
 
     /**
@@ -36,10 +36,11 @@ public interface ProductCenterFeignApi {
      * @param productNo
      * @return
      */
-    @RequestLine("GET /selectProductInfoById/{productNo}")
-    ProductInfo selectProductInfoById(@Param("productNo") String productNo);
+//    @RequestLine("GET /selectProductInfoById/{productNo}")
+//    ProductInfo selectProductInfoById(@Param("productNo") String productNo);
 
-    @RequestLine("GET /getToken4Header")
+//    @RequestLine("GET /getToken4Header")
+    @RequestMapping("/getToken4Header/{token}")
     String getToken4Header(@RequestHeader("token") String token);
 
 }

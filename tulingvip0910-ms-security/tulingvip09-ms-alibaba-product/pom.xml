@@ -35,7 +35,7 @@
 
 		<dependency>
 			<groupId>com.tuling</groupId>
-			<artifactId>tulingvip-ms-alibaba-dao</artifactId>
+			<artifactId>ms-alibaba-dao</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip-cloud-alibaba</artifactId>
+	<artifactId>spring-cloud-alibaba</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip-cloud-alibaba</name>
+	<name>spring-cloud-alibaba</name>
 	<packaging>pom</packaging>
 	<description>微服务alibaba</description>
 
@@ -21,12 +21,14 @@
 	</properties>
 
 	<modules>
-		<module>tulingvip-ms-alibaba-dao</module>
-		<module>tulingvip-ms-alibaba-common</module>
-		<module>tulingvip01-ms-alibaba-rest-order</module>
-		<module>tulingvip01-ms-alibaba-rest-product</module>
-		<module>tulingvip01-ms-alibaba-nacosclient-order</module>
-		<module>tulingvip01-ms-alibaba-nacosclient-product</module>
+		<module>ms-alibaba-dao</module>
+		<module>ms-alibaba-common</module>
+		<module>1-ms-alibaba-config</module>
+		<module>1-ms-alibaba-rest-order</module>
+		<module>1-ms-alibaba-rest-product</module>
+		<module>1-ms-alibaba-nacosclient-order</module>
+		<module>1-ms-alibaba-nacosclient-product</module>
+		<module>1-springboot-with-nacos-order</module>
 	</modules>
 
 	<dependencies>

@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.tuling</groupId>
-		<artifactId>tulingvip-cloud-alibaba</artifactId>
+		<artifactId>spring-cloud-alibaba</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
@@ -62,7 +62,7 @@
 
 		<dependency>
 			<groupId>com.tuling</groupId>
-			<artifactId>tulingvip-ms-alibaba-dao</artifactId>
+			<artifactId>ms-alibaba-dao</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 

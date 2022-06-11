@@ -1,8 +1,9 @@
 spring:
   cloud:
     nacos:
-      config:
+      config: #精准配置(order-center-dev.yml)>不同环境的通用配置(order-center.yml)>不同工程(ext-config)>不同工程(shared-dataids)
         server-addr: localhost:8848
+        namespace: 2257d09f-fd6a-4ee5-a58b-86949d7241e5
         file-extension: yml
         shared-dataids: common.yml,common2.yml
         refreshable-dataids: common.yml,common2.yml
@@ -18,6 +19,4 @@ spring:
   application:
     name: order-center
   profiles:
-    active: dev
-server:
-  port: 8081
+    active: prod

@@ -35,6 +35,11 @@
 		<module>2-ms-alibaba-ribbon-pay</module>
 		<module>2-ms-alibaba-ribbon-product</module>
 		<module>2-ms-alibaba-customcfg-ribbon-order</module>
+		<module>2-ms-alibaba-customcfg-ribbon-order</module>
+		<module>3-ms-alibaba-feign-api</module>
+		<module>3-ms-alibaba-feign-order</module>
+		<module>3-ms-alibaba-feign-product</module>
+		<module>3-ms-alibaba-customcfg-feign-order</module>
 		<module>9-10-ms-security</module>
 	</modules>
 

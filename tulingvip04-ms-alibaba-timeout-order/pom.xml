@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip04-ms-alibaba-timeout-order</artifactId>
+	<artifactId>4-ms-alibaba-timeout-order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip04-ms-alibaba-timeout-order</name>
+	<name>4-ms-alibaba-timeout-order</name>
 	<description>容错超时</description>
 
 	<properties>

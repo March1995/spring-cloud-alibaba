@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip01-ms-alibaba-nacosclient-order</artifactId>
+	<artifactId>1-ms-alibaba-nacosclient-order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip01-ms-alibaba-nacosclient-order</name>
+	<name>1-ms-alibaba-nacosclient-order</name>
 	<description>基于rest的order服务</description>
 
 	<properties>

@@ -21,14 +21,21 @@
 	</properties>
 
 	<modules>
-		<module>ms-alibaba-dao</module>
 		<module>ms-alibaba-common</module>
+		<module>ms-alibaba-dao</module>
 		<module>1-ms-alibaba-config</module>
 		<module>1-ms-alibaba-rest-order</module>
 		<module>1-ms-alibaba-rest-product</module>
 		<module>1-ms-alibaba-nacosclient-order</module>
 		<module>1-ms-alibaba-nacosclient-product</module>
 		<module>1-springboot-with-nacos-order</module>
+		<module>2-ms-alibaba-customlb-order</module>
+		<module>2-ms-alibaba-customlb-product</module>
+		<module>2-ms-alibaba-ribbon-order</module>
+		<module>2-ms-alibaba-ribbon-pay</module>
+		<module>2-ms-alibaba-ribbon-product</module>
+		<module>2-ms-alibaba-customcfg-ribbon-order</module>
+		<module>9-10-ms-security</module>
 	</modules>
 
 	<dependencies>

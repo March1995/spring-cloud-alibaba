@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip05-ms-alibaba-sentinelrulepersistencepush-order</artifactId>
+	<artifactId>5-ms-alibaba-sentinelrulepersistencepush-order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip05-ms-alibaba-sentinelrulepersistencepush-order</name>
+	<name>5-ms-alibaba-sentinelrulepersistencepush-order</name>
 	<description>基于ribbon负载均衡</description>
 
 	<properties>

@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip08-ms-alibaba-gateway-order</artifactId>
+	<artifactId>8-ms-alibaba-gateway-order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip08-ms-alibaba-gateway-order</name>
+	<name>8-ms-alibaba-gateway-order</name>
 	<description>gateway转发调用</description>
 
 	<properties>

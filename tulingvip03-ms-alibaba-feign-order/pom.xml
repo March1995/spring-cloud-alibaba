@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip03-ms-alibaba-feign-order</artifactId>
+	<artifactId>3-ms-alibaba-feign-order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip03-ms-alibaba-feign-order</name>
+	<name>3-ms-alibaba-feign-order</name>
 	<description>基于feign负载均衡</description>
 
 	<properties>
@@ -49,7 +49,7 @@
 
 		<dependency>
 			<groupId>com.tuling</groupId>
-			<artifactId>tulingvip03-ms-alibaba-feign-api</artifactId>
+			<artifactId>3-ms-alibaba-feign-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

@@ -2,9 +2,6 @@ package com.tuling.entity;
 
 import lombok.Data;
 
-/**
- * Created by smlz on 2019/11/17.
- */
 @Data
 public class ProductInfo {
 

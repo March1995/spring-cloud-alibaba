@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip05-ms-alibaba-sentinelrulepersistence-ahas-order</artifactId>
+	<artifactId>5-ms-alibaba-sentinelrulepersistence-ahas-order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip05-ms-alibaba-sentinelrulepersistence-ahas-order</name>
+	<name>5-ms-alibaba-sentinelrulepersistence-ahas-order</name>
 	<description>基于阿里云ahas的流控</description>
 
 	<properties>

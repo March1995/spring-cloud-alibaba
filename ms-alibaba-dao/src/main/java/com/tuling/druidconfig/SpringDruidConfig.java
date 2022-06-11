@@ -19,7 +19,6 @@ import java.sql.SQLException;
 
 /**
  * 德鲁伊数据源配置
- * Created by smlz on 2019/11/17.
  */
 @EnableConfigurationProperties(value = DruidDataSourceProperties.class)
 @Configuration
@@ -49,8 +48,7 @@ public class SpringDruidConfig {
     @Bean
     public SqlSessionFactoryBean sqlSessionFactory() throws Exception {
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
-        sqlSessionFactoryBean.setMapperLocations(new PathMatchingResourcePatternResolver()
-                .getResources("classpath:/mybatis/mapper/**/*.xml"));
+        sqlSessionFactoryBean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:/mybatis/mapper/**/*.xml"));
         sqlSessionFactoryBean.setConfigLocation(new PathMatchingResourcePatternResolver().getResource("classpath:/mybatis/mybatis-config.xml"));
         sqlSessionFactoryBean.setDataSource(dataSource());
         return sqlSessionFactoryBean;

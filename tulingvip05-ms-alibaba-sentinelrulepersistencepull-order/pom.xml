@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip05-ms-alibaba-sentinelrulepersistence-order</artifactId>
+	<artifactId>5-ms-alibaba-sentinelrulepersistence-order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip05-ms-alibaba-sentinelrulepersistence-order</name>
+	<name>5-ms-alibaba-sentinelrulepersistence-order</name>
 	<description>sentinel规则持久化</description>
 
 	<properties>

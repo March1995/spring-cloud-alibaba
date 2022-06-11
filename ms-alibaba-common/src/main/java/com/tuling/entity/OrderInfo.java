@@ -5,10 +5,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
-/**
- * Created by smlz on 2019/11/17.
- */
-
 public class OrderInfo {
 
     private String orderNo;

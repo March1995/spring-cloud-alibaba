@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip08-ms-cloud-gateway</artifactId>
+	<artifactId>8-ms-cloud-gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip08-ms-cloud-gateway</name>
+	<name>8-ms-cloud-gateway</name>
 	<description>网关接入sentinel</description>
 
 	<properties>

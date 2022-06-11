@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip03-ms-alibaba-feign-product</artifactId>
+	<artifactId>3-ms-alibaba-feign-product</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip03-ms-alibaba-feign-product</name>
+	<name>3-ms-alibaba-feign-product</name>
 	<description>提供feign调用的</description>
 
 	<properties>
@@ -41,7 +41,7 @@
 
 		<dependency>
 			<groupId>com.tuling</groupId>
-			<artifactId>tulingvip03-ms-alibaba-feign-api</artifactId>
+			<artifactId>3-ms-alibaba-feign-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

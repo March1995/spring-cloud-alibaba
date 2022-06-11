@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tuling</groupId>
-	<artifactId>tulingvip04-ms-alibaba-timeout-product</artifactId>
+	<artifactId>4-ms-alibaba-timeout-product</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tulingvip04-ms-alibaba-timeout-product</name>
+	<name>4-ms-alibaba-timeout-product</name>
 	<description>基于rest的order服务</description>
 
 	<properties>

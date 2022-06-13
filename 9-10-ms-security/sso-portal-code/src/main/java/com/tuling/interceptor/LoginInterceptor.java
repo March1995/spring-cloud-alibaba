@@ -22,7 +22,7 @@ import java.time.LocalDateTime;
 
 /**
  * 过滤session中是否有token信息(基于Session的单点登陆)
- * Created by smlz on 2019/12/29.
+ * Created by wyb on 2019/12/29.
  */
 @Slf4j
 @Component

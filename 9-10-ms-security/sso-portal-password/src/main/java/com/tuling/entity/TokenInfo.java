@@ -3,7 +3,7 @@ package com.tuling.entity;
 import lombok.Data;
 
 /**
- * Created by smlz on 2019/12/29.
+ * Created by wyb on 2019/12/29.
  */
 @Data
 public class TokenInfo {

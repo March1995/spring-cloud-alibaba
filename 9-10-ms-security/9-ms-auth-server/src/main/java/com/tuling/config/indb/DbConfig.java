@@ -12,7 +12,7 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import javax.sql.DataSource;
 
 /**
- * Created by smlz on 2019/12/25.
+ * Created by wyb on 2019/12/25.
  */
 @Configuration
 public class DbConfig {

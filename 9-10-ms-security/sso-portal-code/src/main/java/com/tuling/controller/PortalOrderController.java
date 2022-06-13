@@ -31,7 +31,7 @@ import static com.tuling.config.MDA.TOKEN_INFO_KEY;
 
 
 /**
- * Created by smlz on 2019/12/29.
+ * Created by wyb on 2019/12/29.
  */
 @Controller
 @Slf4j

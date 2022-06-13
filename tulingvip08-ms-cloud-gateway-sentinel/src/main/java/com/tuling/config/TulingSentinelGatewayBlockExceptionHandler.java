@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by smlz on 2019/12/19.
+ * Created by wyb on 2019/12/19.
  */
 public class TulingSentinelGatewayBlockExceptionHandler implements WebExceptionHandler {
 

@@ -22,7 +22,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by smlz on 2019/11/28.
+ * Created by wyb on 2019/11/28.
  */
 @Slf4j
 public class PullModeByFileDataSource implements InitFunc {

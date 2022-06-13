@@ -11,7 +11,7 @@ import java.util.Map;
 
 /**
  * token增强器,根据自己业务 往token存储业务字段
- * Created by smlz on 2020/1/20.
+ * Created by wyb on 2020/1/20.
  */
 
 public class TulingTokenEnhancer implements TokenEnhancer {

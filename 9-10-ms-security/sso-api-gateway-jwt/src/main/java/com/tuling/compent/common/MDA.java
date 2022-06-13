@@ -2,7 +2,7 @@ package com.tuling.compent.common;
 
 /**
  * 常量类
- * Created by smlz on 2019/12/26.
+ * Created by wyb on 2019/12/26.
  */
 public class MDA {
 

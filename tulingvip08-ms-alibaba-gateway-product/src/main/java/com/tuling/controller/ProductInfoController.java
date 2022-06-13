@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * Created by smlz on 2019/11/17.
+ * Created by wyb on 2019/11/17.
  */
 @RestController
 @RequestMapping("/product")

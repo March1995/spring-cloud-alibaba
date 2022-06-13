@@ -7,7 +7,7 @@ import java.util.Date;
 
 /**
  * 系统用户表
- * Created by smlz on 2019/12/20.
+ * Created by wyb on 2019/12/20.
  */
 @Data
 public class SysUser implements Serializable {

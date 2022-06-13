@@ -8,7 +8,7 @@ import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 import org.springframework.web.util.pattern.PathPatternParser;
 
 /**
- * Created by smlz on 2019/12/19.
+ * Created by wyb on 2019/12/19.
  */
 @Configuration
 public class CorsConfig {

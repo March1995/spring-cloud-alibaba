@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * Created by smlz on 2019/12/9.
+ * Created by wyb on 2019/12/9.
  */
 public interface ProductMapper {
 

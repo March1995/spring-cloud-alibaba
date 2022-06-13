@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by smlz on 2020/1/20.
+ * Created by wyb on 2020/1/20.
  */
 @Slf4j
 public class GetTokenUtils {

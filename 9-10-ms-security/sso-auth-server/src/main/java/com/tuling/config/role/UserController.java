@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.security.Principal;
 
 /**
- * Created by smlz on 2020/1/15.
+ * Created by wyb on 2020/1/15.
  */
 
 @RestController

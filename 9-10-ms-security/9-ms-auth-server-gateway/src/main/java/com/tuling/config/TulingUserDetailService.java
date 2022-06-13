@@ -9,7 +9,6 @@ import com.tuling.config.role.service.ISysPermissionService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -22,7 +21,6 @@ import java.util.List;
 
 /**
  * 该类都是基于内存的 ，后期会改变为db,需要去数据库中查询
- * Created by smlz on 2019/12/25.
  */
 @Component("userDetailsService")
 @Slf4j

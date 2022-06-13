@@ -3,7 +3,7 @@ package com.tuling.vo;
 import lombok.Data;
 
 /**
- * Created by smlz on 2019/12/30.
+ * Created by wyb on 2019/12/30.
  */
 @Data
 public class BuyVo {

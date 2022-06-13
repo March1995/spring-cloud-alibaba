@@ -29,7 +29,7 @@ import java.security.KeyPair;
 import java.util.Arrays;
 
 /**
- * Created by smlz on 2019/12/25.
+ * Created by wyb on 2019/12/25.
  */
 @Configuration
 @EnableAuthorizationServer

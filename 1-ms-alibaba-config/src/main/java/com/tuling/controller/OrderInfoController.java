@@ -13,9 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * Created by smlz on 2019/11/17.
- */
 @RestController
 @Slf4j
 @RefreshScope

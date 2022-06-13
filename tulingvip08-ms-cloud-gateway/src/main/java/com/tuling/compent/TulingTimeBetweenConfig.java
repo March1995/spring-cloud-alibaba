@@ -5,7 +5,7 @@ import lombok.Data;
 import java.time.LocalTime;
 
 /**
- * Created by smlz on 2019/12/16.
+ * Created by wyb on 2019/12/16.
  */
 @Data
 public class TulingTimeBetweenConfig {

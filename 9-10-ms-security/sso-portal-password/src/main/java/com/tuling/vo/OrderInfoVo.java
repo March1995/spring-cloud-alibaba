@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * Created by smlz on 2019/12/29.
+ * Created by wyb on 2019/12/29.
  */
 @Data
 public class OrderInfoVo {

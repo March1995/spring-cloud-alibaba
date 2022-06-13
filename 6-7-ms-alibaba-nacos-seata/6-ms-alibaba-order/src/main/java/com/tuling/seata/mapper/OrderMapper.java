@@ -4,7 +4,7 @@ import com.tuling.seata.domin.Order;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * Created by smlz on 2019/12/9.
+ * Created by wyb on 2019/12/9.
  */
 public interface OrderMapper {
 

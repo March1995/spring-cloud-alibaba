@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 /**
- * Created by smlz on 2019/11/17.
+ * Created by wyb on 2019/11/17.
  */
 @RestController
 public class OrderInfoController {

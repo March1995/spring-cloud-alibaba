@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * 全局过滤器校验请求头中的token
- * Created by smlz on 2019/12/17.
+ * Created by wyb on 2019/12/17.
  */
 @Component
 @Slf4j

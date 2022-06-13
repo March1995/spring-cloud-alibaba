@@ -28,7 +28,7 @@ import java.util.Set;
 
 /**
  * 网关 +防卫兵配置
- * Created by smlz on 2019/12/17.
+ * Created by wyb on 2019/12/17.
  */
 @Configuration
 public class GateWaySentinelConfig {

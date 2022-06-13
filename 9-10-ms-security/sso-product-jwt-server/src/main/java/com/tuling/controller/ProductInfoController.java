@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.security.Principal;
 
 /**
- * Created by smlz on 2019/11/17.
+ * Created by wyb on 2019/11/17.
  */
 @RestController
 @RequestMapping("/product")

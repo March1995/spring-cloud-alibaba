@@ -11,7 +11,7 @@ import org.springframework.http.client.ClientHttpRequestExecution;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 
 /**
- * Created by smlz on 2019/11/27.
+ * Created by wyb on 2019/11/27.
  */
 @Slf4j
 public class GlobalExceptionHandler {

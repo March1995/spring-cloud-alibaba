@@ -13,7 +13,7 @@ import java.util.function.Predicate;
 
 /**
  * 图灵自定义谓词工厂,业务模拟12306 晚上23:00到凌晨6:00不能购票
- * Created by smlz on 2019/12/16.
+ * Created by wyb on 2019/12/16.
  */
 @Component
 @Slf4j

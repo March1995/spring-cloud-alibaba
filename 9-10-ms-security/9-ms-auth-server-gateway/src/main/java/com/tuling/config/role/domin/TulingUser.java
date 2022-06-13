@@ -5,9 +5,6 @@ import org.springframework.security.core.userdetails.User;
 
 import java.util.Collection;
 
-/**
- * Created by smlz on 2019/12/20.
- */
 public class TulingUser extends User {
 
     private Integer departmentId;   //  举个例子，部门ID

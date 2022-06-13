@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * web安全配置
- * Created by smlz on 2019/12/29.
+ * Created by wyb on 2019/12/29.
  */
 @Configuration
 public class PortalWebConfig implements WebMvcConfigurer {

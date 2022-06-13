@@ -17,7 +17,7 @@ import javax.sql.DataSource;
 
 /**
  * 授权中心的配置
- * Created by smlz on 2019/12/20.
+ * Created by wyb on 2019/12/20.
  */
 @Configuration
 @EnableAuthorizationServer

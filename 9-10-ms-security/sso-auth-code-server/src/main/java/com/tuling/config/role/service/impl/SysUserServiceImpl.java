@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by smlz on 2019/12/20.
+ * Created by wyb on 2019/12/20.
  */
 @Component
 public class SysUserServiceImpl implements ISysUserService {

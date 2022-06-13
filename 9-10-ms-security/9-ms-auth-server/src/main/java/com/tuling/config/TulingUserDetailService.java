@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 该类都是基于内存的 ，后期会改变为db,需要去数据库中查询
- * Created by smlz on 2019/12/25.
+ * Created by wyb on 2019/12/25.
  */
 @Component("userDetailsService")
 @Slf4j

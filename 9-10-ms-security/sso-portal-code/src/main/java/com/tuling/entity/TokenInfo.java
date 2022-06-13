@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.util.Map;
 
 /**
- * Created by smlz on 2019/12/29.
+ * Created by wyb on 2019/12/29.
  */
 @Data
 public class TokenInfo {

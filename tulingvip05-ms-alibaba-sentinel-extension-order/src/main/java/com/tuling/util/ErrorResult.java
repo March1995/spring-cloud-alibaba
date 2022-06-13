@@ -1,7 +1,7 @@
 package com.tuling.util;
 
 /**
- * Created by smlz on 2019/12/3.
+ * Created by wyb on 2019/12/3.
  */
 public class ErrorResult {
 

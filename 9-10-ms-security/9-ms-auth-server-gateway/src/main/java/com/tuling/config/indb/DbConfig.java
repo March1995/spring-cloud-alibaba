@@ -16,9 +16,6 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 
 import javax.sql.DataSource;
 
-/**
- * Created by smlz on 2019/12/25.
- */
 @Configuration
 @MapperScan(basePackages = "com.tuling.config.role.mapper")
 public class DbConfig {

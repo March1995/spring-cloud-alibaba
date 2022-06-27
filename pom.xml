@@ -44,6 +44,15 @@
 		<module>4-ms-alibaba-sentinel-product</module>
 		<module>4-ms-alibaba-timeout-order</module>
 		<module>4-ms-alibaba-timeout-product</module>
+		<module>4-ms-alibaba-timeout-product</module>
+		<module>5-ms-alibaba-feignwithsentinel-order</module>
+		<module>5-ms-alibaba-feignwithsentinel-product</module>
+		<module>5-ms-alibaba-ribbonwithsentinel-order</module>
+		<module>5-ms-alibaba-ribbonwithsentinel-product</module>
+		<module>5-ms-alibaba-sentinel-extension-order</module>
+		<module>5-ms-alibaba-sentinelrulepersistence-ahas-order</module>
+		<module>5-ms-alibaba-sentinelrulepersistencepull-order</module>
+		<module>5-ms-alibaba-sentinelrulepersistencepush-order</module>
 		<module>9-10-ms-security</module>
 	</modules>
 

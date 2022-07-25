@@ -53,6 +53,10 @@
 		<module>5-ms-alibaba-sentinelrulepersistence-ahas-order</module>
 		<module>5-ms-alibaba-sentinelrulepersistencepull-order</module>
 		<module>5-ms-alibaba-sentinelrulepersistencepush-order</module>
+		<module>8-ms-alibaba-gateway-order</module>
+		<module>8-ms-alibaba-gateway-product</module>
+		<module>8-ms-alibaba-gateway</module>
+		<module>8-ms-alibaba-gateway-sentinel</module>
 		<module>9-10-ms-security</module>
 	</modules>
 
